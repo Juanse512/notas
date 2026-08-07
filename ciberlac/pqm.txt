@@ -13,10 +13,10 @@ Nos concentramos en criptografía asimétrica -> va a ser la vulnerada por la co
 Se cambian todas las variables del criptosistema (M,C,K,E,D)
 
 Elementos adicionales del criptosistema:
-- Keygen
-- Enc
-- Dec
-
+  - Keygen
+  - Enc
+  - Dec
+  
 Bases de algoritmos:
  RSA: Factoización de números grandes
  ElGamal,DSA,ECC: Resolución del Logaritmo Discreto (DLP)
@@ -34,10 +34,10 @@ Criptografía de curva elíptica: Versión aditiva de DLP, conjunto de puntos en
 Conjunto definido en un mundo discreto, definido por rectas.
 
 Definimos operación de suma:
-- Adicion de puntos R = P + Q
-- Doblado de puntos R = P + P = 2P
-- Multiplicacion escalar de un punto R = nP = P + 2P
-
+  - Adicion de puntos R = P + Q
+  - Doblado de puntos R = P + P = 2P
+  - Multiplicacion escalar de un punto R = nP = P + 2P
+  
 Para sumar puntos A y B, se traza una recta definida sobre los 2 puntos, luego, en la intersección contra la recta original, se espeja.
 Al multiplicar se hace una tangente sobre el punto, la intersección de esa recta se luego se espeja
 
@@ -59,23 +59,79 @@ matriz unimodular = matriz invertible
 Cripto Agilidad
 Capacidad de realizar la sustitución de algoritmos criptográficos, así como el material criptográficos, con el objetivo de mejoras a la seguridad de forma transparente
 Involucra 3 capacidades:
-- Las máquinas deben poder seleccionar sus algoritmos de seguridad en tiempo real y en funcion de sus funciones de seguridad combinadas.
-- Capacidad de añadir nuevas funciones o algoritmos criptográficos al hardware o software existente.
-- Capacidad de retirar sin problemas los sistemas criptográficos que se han vuelto vulnerables u obsoletos.
-
+  - Las máquinas deben poder seleccionar sus algoritmos de seguridad en tiempo real y en funcion de sus funciones de seguridad combinadas.
+  - Capacidad de añadir nuevas funciones o algoritmos criptográficos al hardware o software existente.
+  - Capacidad de retirar sin problemas los sistemas criptográficos que se han vuelto vulnerables u obsoletos.
+  
 Air Gap: Si tenemos un dispositivo que tiene un sistema desactualizado (por ejemplo un SW que solo funciona en Windows 7), este dispositivo debe meterse dentro de un "air gap", aislando el dispositivo del resto.
 
 Por que es necesaria la cripto agilidad?
-- Las aplicaciones que usan cifrado o PKI deben inventariarse y obtener información de como y cuales algoritmos se utilizan.
-- Se deben identificar los reemplazos adecuados para los casos de uso.
-- Los nuevos algoritmos no son sustitutos directos, se deben probar alternativas.
-- El uso de productos criptográficos deben identificarse y buscar con los proovedores un programa de reemplazo.
-
+  - Las aplicaciones que usan cifrado o PKI deben inventariarse y obtener información de como y cuales algoritmos se utilizan.
+  - Se deben identificar los reemplazos adecuados para los casos de uso.
+  - Los nuevos algoritmos no son sustitutos directos, se deben probar alternativas.
+  - El uso de productos criptográficos deben identificarse y buscar con los proovedores un programa de reemplazo.
+  
 Estandares: FIPS 203 - FIPS 204 - FIPS 205
 
 La escala de tiempo para el cambio (5-7 años) supera los plazos de rotación de los tomadores de desición, por lo que es "problema de otra persona".
 
 Los estándares del NIST son lentos en salir, lo que deja a organizaciones con versiones no-estándar de los algoritmos.
 
+Componentes criptográficos:
+  - Identificación de algoritmos
+  - Transición de algoritmos
+  - Establecimiento de llaves
+  - Balancear Seguridad y Complejidad
+
+Aplicaciones criptográficas:
+  - Uso de APIs de las bibliotecas criptográficas
+  - Uso de la API del SO
+  - Hardware
+
+Elementos clave
+  - Gestión de recursos
+  - Diseño compatible con la agilidad
+  - Complejidad vs Seguridad
+  - Criptoagilidad en la nube
+  - Modelo de madurez
+  - Plan estratégico para la cripto-agilidad
+
+Puntos para llevarse:
+  - La cripto-agilidad esta impulsada por la migración a PQC, pero tiene que continuar siendo agil
+  - El uso correcto de un inventario es clave
+  - Es preferible una buena estrategia antes que muchas manos sueltas
+
+Retículos
+Paralelepipedo fundamental:
+Sea L un retículo construido sobre una base {v_1,...v_n}
+El dominio fundamental del Retículo L es la región definida como:
+
+  F(v1,...vn) = {t_1.v_1 + ... + t_n.v_n | t_i \in [0,1)}
+
+Tambien conocido como det(L)
+
+Es el area delimitada por el paralelepipedo generado por los vectores base
+
+Matriz base: B = {v_1,...v_n}
+
+Sea L un Retículo de rango completo de base L(v_1,...v_n) y un dominio fundamental asociado F = (v_1,...v_n)
+El volumen de F es det(B) (creo)
+
+det(B') = det(AB) = det(A)det(B) = det(B)
+
+Elegir una base diferente no altera el Retículo
+
+Un retículo puede particionarse en dominios fundamentales disjuntos, cuya unión cubre la totalidad del mismo
+
+span(L) = {F + v | v \in L}
+
+Para cualquier vector w \in R^n existe un único vector t \in F tal:
+
+w - t \in L(B)
+
+w = v + t
+t = w - v <- el t es el punto del retículo mas cercano
+
+w mod B = w - B . [B^{-1} . w] <- translada un paralelepípedo al origen, se dice reducir modularmente
 
 
