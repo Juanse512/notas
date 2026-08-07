@@ -63,4 +63,19 @@ Involucra 3 capacidades:
 - Capacidad de añadir nuevas funciones o algoritmos criptográficos al hardware o software existente.
 - Capacidad de retirar sin problemas los sistemas criptográficos que se han vuelto vulnerables u obsoletos.
 
+Air Gap: Si tenemos un dispositivo que tiene un sistema desactualizado (por ejemplo un SW que solo funciona en Windows 7), este dispositivo debe meterse dentro de un "air gap", aislando el dispositivo del resto.
+
+Por que es necesaria la cripto agilidad?
+- Las aplicaciones que usan cifrado o PKI deben inventariarse y obtener información de como y cuales algoritmos se utilizan.
+- Se deben identificar los reemplazos adecuados para los casos de uso.
+- Los nuevos algoritmos no son sustitutos directos, se deben probar alternativas.
+- El uso de productos criptográficos deben identificarse y buscar con los proovedores un programa de reemplazo.
+
+Estandares: FIPS 203 - FIPS 204 - FIPS 205
+
+La escala de tiempo para el cambio (5-7 años) supera los plazos de rotación de los tomadores de desición, por lo que es "problema de otra persona".
+
+Los estándares del NIST son lentos en salir, lo que deja a organizaciones con versiones no-estándar de los algoritmos.
+
+
 
