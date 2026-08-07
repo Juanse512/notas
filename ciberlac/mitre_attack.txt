@@ -83,5 +83,69 @@ Tecnicas:
 - Modificar logs del sistema
 
 
+Pentesting
+
+Guias generales:
+  - PTES (PenTesting Execution Standard)
+  - OSSTMM (Open Source Security Testing Methodology Manual)
+  - NIST 800-115 (Technical Guide to Information Security Testing and Assessment)
+
+Guias específicas:
+- OWASP Testing guide (Web security testing guide)
+- OWASP MASTG (Mobile Application Security Testing Guide)
+- OWASP ASVS (Application Security Verification Standard)
+- PCI DSS Penetration Testing Guidance (datos de tarjetas de pago)
+
+Mitre ATT&CK es un mapa a técnicas y herramientas reales, no es una guía.
+
+Conceptos Red Team:
+  - Estudiar las técnicas de ataque más frecuentes
+  - Elaborar planes de trabajo, ataques, etc.
+
+Tarea:
+  - Tac y Tec
+  - Linea de tiempo y/o relacion causa efecto
+  - Reporte matriz/grafo
+
+Blue Team
+Equipo responsable de defender un sistema de informacion manteniendo la postura de seguridad.
+
+Threat Informed Defense: Approach que usa ataques reales para priorizar, diseñar y evaluar medidas defensivas
+
+CSF: Cyber Security Framework
+
+Perfiles: Describen la postura de seguridad (actual y objetivo) en función del core
+Niveles: Caracterizan el rigor de las prácticas de gobernanzas y gestión
+Funciones
+- Gobernar
+- Identificar riesgos
+- Proteger
+- Detectar ataques
+- Responder
+- Recuperar
+
+DFIR
+
+CIS Controls cissecurity.com
+- Define implementations groups, diferentes niveles de seguridad/implicancia
+- Hay mapeo directo CIS <-> ATT&CK
+
+NIST 800-53 Checklist, stigviewer.com es una herramienta para visualizarlo
+
+Mitre D3FEND 
+
+Conceptos a recordar:
+- Actividades para realizar y ciclo de vida de la defensa
+- Mapear el Ataque a las acciones de Defensa a realizar
+
+Tarea:
+- Identificar controles que cubren los ataques realizados
+
+MITRE ATLAS <- Matriz de ataque para IA, puede servir revisarlo para el trabajo
+
+
+
+
+
 
 
