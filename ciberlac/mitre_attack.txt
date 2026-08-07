@@ -47,6 +47,9 @@ TAREA: Reconstruir ataque del CTF en Navigator
 Caldera
 Emulación de adversarios
 
+docker run -p 7010:7010 -p 7011:7011/udp -p 7012:7012 -p 8888:8888 caldera:server
+
+
 Atomic Red Team
 
 Attack flow builder
@@ -55,4 +58,30 @@ Arbol de ataque
 Modelo que representa visualmente todas las formas en las que un atacante puede comprometer un objetivo.
 
 Attack Tree attacktree.online
+
+
+Red Team: 
+Grupo de gente autorizada para emular un ataque de adversario. El objetivo es mostrar el impacto de ataques.
+
+Ataque: cualquier actividad maliciosa
+Malware: software malicioso
+IDPS: Intrusion detetion prevention system
+
+Ataques de Host
+- Process Injection
+- Rootkit
+- Modify Registry
+- Boot or Logon Autostart Execution
+- Scheduled Task/Job
+- Masquerading
+
+Rootkit 
+- User o Kernel space
+
+Tecnicas:
+- Hooking system calls
+- Modificar logs del sistema
+
+
+
 
