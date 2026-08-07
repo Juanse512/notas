@@ -1,0 +1,58 @@
+Mitre ATT&CK:
+- Base de conocimiento de ataques
+- Modelo de adversario cibernético
+Se pueden hacer simulaciones de ataque
+
+STIX: Estandar para comunicar información sobre ataques
+
+
+Cyber Kill Chain (Lockheed Martin)
+7 pasos para hacer un ataque.
+
+Matrices:
+- Enterprise 
+- Mobile
+- ICS (Industrial Control Systems)
+
+Tactica -> [Técnicas] -> [Sub-Tecnicas]
+  Que         Como     Detalle-Procedimiento
+
+CAPEC -> base de datos de vectores de ataque
+CWE -> base de datos de Weakness
+CVE -> base de datos de vulnerabilidades
+
+  CWE
+Herramientas para detectar weakness:
+- SonarQube, SAST, DAST
+- Usar IA, OpenCode, IAST
+  CAPEC
+Dividido en
+Dominios - Entorno que ataca
+Mecanismos - Como se ejecuta el ataque en si
+
+
+CAPEC Describe los ataque de forma mas teorica -> estrategia
+ATT&CK Describe los pasos del atacante
+
+CVSS Clasifica las vulnerabilidades con un score dependiendo de la criticidad
+
+
+Herramientas
+
+Navigator
+Anotar y explorar las matrices ATT&CK
+
+TAREA: Reconstruir ataque del CTF en Navigator
+
+Caldera
+Emulación de adversarios
+
+Atomic Red Team
+
+Attack flow builder
+----------------------------
+Arbol de ataque
+Modelo que representa visualmente todas las formas en las que un atacante puede comprometer un objetivo.
+
+Attack Tree attacktree.online
+

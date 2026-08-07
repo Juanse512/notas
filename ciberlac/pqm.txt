@@ -1,0 +1,66 @@
+Migración Postcuántica
+Criptografía asímetrica: Necesidad de actualizar antes del Q-Day
+
+
+Información como activo: Quién tiene la información?
+
+Mantener una ventaja competitiva sobre los adversarios.
+
+Toda criptografía tiene bases matemáticas, (anillos, campos, etc). Vamos a cambiar esas bases. -> migramos a lattices (retículos).
+
+Nos concentramos en criptografía asimétrica -> va a ser la vulnerada por la computación cuántica.
+
+Se cambian todas las variables del criptosistema (M,C,K,E,D)
+
+Elementos adicionales del criptosistema:
+- Keygen
+- Enc
+- Dec
+
+Bases de algoritmos:
+ RSA: Factoización de números grandes
+ ElGamal,DSA,ECC: Resolución del Logaritmo Discreto (DLP)
+
+
+Funciones One Way Trapdoor (OWTP)
+f(x) es fácil, f^-1(x) es inviable computacionalmente (one way)
+Trapdoor, la inversa es inviable, pero es facil si se tiene un dato extra.
+
+Esto funciona porque no existe un algoritmo en computadores digitales que resuelva esto.
+
+
+Criptografía de curva elíptica: Versión aditiva de DLP, conjunto de puntos en un curva elíptica
+
+Conjunto definido en un mundo discreto, definido por rectas.
+
+Definimos operación de suma:
+- Adicion de puntos R = P + Q
+- Doblado de puntos R = P + P = 2P
+- Multiplicacion escalar de un punto R = nP = P + 2P
+
+Para sumar puntos A y B, se traza una recta definida sobre los 2 puntos, luego, en la intersección contra la recta original, se espeja.
+Al multiplicar se hace una tangente sobre el punto, la intersección de esa recta se luego se espeja
+
+Atacable por computación cuantica, pero nos sirve para algunas aproximaciones
+
+ECDH
+Se construye un criptosistema estableciendo claves públicas y privadas con base en un punto P de una curva E de ord N
+
+Se puede usar en embebidos porque es más óptimo, pero no mas seguro
+
+Algoritmo de Shor
+Genera hipotesis a partir de la superposición, evalúa, y saca el elemento de mayor probabilidad de resolver el acertijo
+
+Información cifrada puede guardarse y romperse cuando la tecnología exista.
+
+matriz unimodular = matriz invertible
+
+
+Cripto Agilidad
+Capacidad de realizar la sustitución de algoritmos criptográficos, así como el material criptográficos, con el objetivo de mejoras a la seguridad de forma transparente
+Involucra 3 capacidades:
+- Las máquinas deben poder seleccionar sus algoritmos de seguridad en tiempo real y en funcion de sus funciones de seguridad combinadas.
+- Capacidad de añadir nuevas funciones o algoritmos criptográficos al hardware o software existente.
+- Capacidad de retirar sin problemas los sistemas criptográficos que se han vuelto vulnerables u obsoletos.
+
+
