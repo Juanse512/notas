@@ -1,0 +1,55 @@
+Creative commons -> licencia para la información
+Software libre: protegido por una licencia que garantiza su libertad a la perpetuidad.
+GPL - General Public Licence
+4 Libertades:
+  - Usar: ejecutar el programa para cualquier proposito
+  - Estudiar: examinar su funcionamiento interno
+  - Compartir: redistribuir copias a terceros
+  - Modificar: Publicar mejoras y adaptaciones
+
+2 Deberes:
+  - Acompañar de código fuente: Entrega íntegra y transparente
+  - No cambiar las condiciones: Prohibido alterar la licencia al distribuir
+ 
+Es suficiente la libertad para garantizar la seguridad? No, existe sofware libre mal hecho, obsoleto o vulnerable.
+  - Software propietario: Código fuente oculto, no se puede encontrar la vulnerabilidad a simple vista.
+  - Software libre: Permite ver como fue desarrollado, inspeccionando esto se pueden ver las vulnerabilidades
+
+La licencia protege liberatdes jurídicas, no de calidad técnicas.
+
+Auditoria de software libre:
+  - Vía técnica:
+   -- Descargo el código fuente
+   -- Verifico el código buscando vulnerabilidades
+   -- Compilar, generando el ejecutable seguro
+  - Vía sociotécnica
+   -- Ver uso: si hay mucha gente que lo usa
+   -- Mantenimiento: frecuencia de actualización
+   -- Actividad: si las comunidades tienen foros con discusiones, y su uso
+   -- Soporte: documentación suficiente y actualizada
+
+Actividades de la seguridad de la información
+  - Preparativas:
+    -- Planeación, diseñar estrategias, obtener recursos, identificacr incidentes, preparar respuestas:
+      --- Inventario de activos:
+        ---- Elementos a incluir: información, archivos, DB, metadatos, logs, llaves, servidores, pcs, discos, IoT, programas que uso, software en la nube, apps móviles, servicios de email, ssh, etc.
+        ---- Fluído eléctrico, conectividad a internet, infraestructura, buen nombre/reputación, directorio de contactos, personal con condiciones especiales, secretos industriales, propiedad intelectual
+        ---- GLPI, software para inventario de activos, y tiene un sistema de tickets, DB de conocimiento
+        ---- Snipe-IT, GLPI mas contenido para empresas más chicas
+      --- Conocimiento de linea de comando de Linux:
+        ---- Automatización de procesos
+      --- Valorar los riesgos
+      --- Documentar el sistema de gestión de seguridad de información con las políticas
+      --- Conformar un equipo de trabajo, competente, disponible, completo
+      --- Sistema de comunicación seguro
+      --- Autoprotección
+      --- Establecer una línea base
+  - Preventivas:
+    -- Evitar incidentes, priorizar riesgos, seleccionar controles, capacitar
+  - Detectivas:
+    -- Monitoreo, alertas, conocer síntomas
+  - Reactivas:
+    -- Contener, erradicar, remediar, restaurar
+  - Retrospectivas:
+    -- Medir desempeño, analizar causas y consecuencias, aorebder, revisar info, retroalimentar, afinar, mejorar, reportar
+
