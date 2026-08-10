@@ -1,0 +1,42 @@
+  - Respuesta rapida a incidentes es esencial para reducir el impacto de ataques
+  - Las organizaciones pueden trackear los tiempos de respuesta a incidentes de seguridad
+  - La falta de experiencia práctica puede afectar al desempeño
+
+Evento de seguridad: Ocurrencia de un estado de un servicio, sistema o redes de computadores, indicando una posible falla de seguridad, politica o controles. En este contexto puede ser una situación desconocida que se conoce mas tarde en el tiempo.
+Incidente: Serie de eventos no deseados y no esperados que resulta en un compromiso de las operaciones de negocio y amenaza la seguridad de la información.
+CSIRT: Nombre del equipo de respuesta a incidentes
+SOC: Servicio para detección de incidentes
+
+Proceso de respuesta a incidentes:
+Clasificación del incidente -> Analisis  -> guiar la contención del incidente -> guiar la erradicacion y recovery del incidente -> cerrar incidente -> aprender
+
+Fuente: ENISA, How to Set up CSIRT and SOC - 2020
+
+Tiers SOC
+Tier 1:
+  - Monitoring
+  - Opens Tickets and closes false positives
+  - Investigación y mitigación basicas
+
+Tier 2:
+  - Investigaciones profundas
+  - Mitiga o recomienda cambios
+
+Tier 3:
+  - Investigaciones avanzadas
+  - Prevencion
+  - Threat Hunting
+  - Forense
+  - Contra-inteligencia
+  - Eliminación de malware
+
+Tipo de SOC
+  - In House
+  - Outsourced
+  - Hybrid
+
+SIEM - Security Incidente Event Manager
+
+Playbooks: Pasos de respuesta típicos tomados luego de un incidente
+
+atomicrocket.itch.io/we-got-hacked
