@@ -22,6 +22,7 @@ Auditoria de software libre:
    -- Descargo el código fuente
    -- Verifico el código buscando vulnerabilidades
    -- Compilar, generando el ejecutable seguro
+  
   - Vía sociotécnica
    -- Ver uso: si hay mucha gente que lo usa
    -- Mantenimiento: frecuencia de actualización
@@ -31,18 +32,46 @@ Auditoria de software libre:
 Actividades de la seguridad de la información
   - Preparativas:
     -- Planeación, diseñar estrategias, obtener recursos, identificacr incidentes, preparar respuestas:
+      
       --- Inventario de activos:
         ---- Elementos a incluir: información, archivos, DB, metadatos, logs, llaves, servidores, pcs, discos, IoT, programas que uso, software en la nube, apps móviles, servicios de email, ssh, etc.
         ---- Fluído eléctrico, conectividad a internet, infraestructura, buen nombre/reputación, directorio de contactos, personal con condiciones especiales, secretos industriales, propiedad intelectual
         ---- GLPI, software para inventario de activos, y tiene un sistema de tickets, DB de conocimiento
         ---- Snipe-IT, GLPI mas contenido para empresas más chicas
+      
       --- Conocimiento de linea de comando de Linux:
         ---- Automatización de procesos
-      --- Valorar los riesgos
-      --- Documentar el sistema de gestión de seguridad de información con las políticas
-      --- Conformar un equipo de trabajo, competente, disponible, completo
-      --- Sistema de comunicación seguro
-      --- Autoprotección
+        ---- Acceso y despliegue remoto
+        ---- dsh <- capaz me sirve, buscar distribute shell, para replicar comandos en varias shells al mismo tiempo
+      
+      --- Valorar los riesgos:
+        ---- Inventario de activo
+        ---- Inteligencia de amenazas
+        ---- Análisis de vulnerabilidades
+        ---- Dar una valoración a cada riesgo
+      
+      --- Documentar el sistema de gestión de seguridad de información con las políticas:
+        ---- Políticas de seguridad de información
+        ---- https://www.incibe.es/empresas/herramientas/politicas
+        ---- Controles establecidos
+        ---- Hacerlo aprobar por la junta directiva
+
+      --- Conformar un equipo de trabajo, competente, disponible, completo:
+        ---- Information Security Manager: Se encarga de investigar lo que va por fuera de la org, analisis de amenazas
+        ---- Alguien dedicado a encontrar vulnerabilidades
+        ---- Operadores 24/7
+        ---- Restitución de la continuidad si hay un ataque
+        ---- Analista forense
+        ---- Comunicaciones, se encarga de comunicar el problema de forma que de tranquilidad
+        ---- Una persona puede tener varios roles
+      
+      --- Sistema de comunicación seguro:
+        ---- Debe funcionar bajo ataque
+        ---- Deben ser seguras (no debe haber mitm ni filtraciones)
+        ---- Mecanismo de comunicación interno del equipo, otro con la organización, otro con los directores, clientes, proovedores, pares en la industria, etc. 
+
+      --- Autoprotección: El equipo de seguridad tiene que ser el equipo más seguro de todos
+      
       --- Establecer una línea base
   - Preventivas:
     -- Evitar incidentes, priorizar riesgos, seleccionar controles, capacitar
