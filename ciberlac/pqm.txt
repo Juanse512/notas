@@ -134,4 +134,65 @@ t = w - v <- el t es el punto del retículo mas cercano
 
 w mod B = w - B . [B^{-1} . w] <- translada un paralelepípedo al origen, se dice reducir modularmente
 
+Sea L un reticulo n dimensional con dominio fundamental F, la longitud del vector mas corto != 0 puede interpretarse como la distancia minima entre 2 vectores del reticulo
+
+\lambda_1(L) = min(||v|| v \in L != 0)
+\lambda_1(L) = min {||x - y|| x, y \in L , x != y}
+
+SVP: Shortest vector problem
+Dado una base B de un reticulo L(B) se quiere encontrar una instancia del vector diferente de cero
+  v \in L(B)\{0}
+tal que 
+  ||v|| = \lambda_1(L(B))
+
+SIVP (shortest independent vector problem)
+CVP (closest vector problem)
+
+Encontrar el vector mas cercano a un vector target
+Dado una base B de un reticulo L(B) y un vector t \nin L(B) se requiere encontrar un vector
+  v \in L(B)
+tal que \forall w \in L(B) satisface
+  ||v - t|| <= ||w - t||
+
+BDD: problema de decodificación de distancia acotada
+Dado una base B de un reticulo L(B) n-dimensional y un vector t \in R^n que satisface dist(t,B) <= \alpha . \lambda_1 (L)
+Se requiere encontrar un vector v \in L que sea el vector más cercado tal que \forall w \in L(B)
+  ||v - t|| < = ||w - t||
+------------------------------------------------------------------------------------------------------------
+LWE (problema de aprendizaje con errores)
+Resolución de un sistema de ecuaciones lineales las cuales se expresan como
+  Ax = B
+Se puede interpretar el sistema de ecuaciones como un conjunto de vectores.
+
+La idea de LWE es recuperar el valor de una llave s a partir de un sistema de ecuaciones lineales las cuales estan contaminada de ruido e, proveniente de una distribución gaussiana
+
+  Sea Z_q = Z/qZ
+  Z^n_q = {(a_1,...,a_n), a_i \in Z_q}
+  x <phi- Z^n_q
+  T = R/Z <x- \= [0,1) (tomo un elemento entre 0 y casi 1 siguiendo una distribución x)
+  
+(<x- significa tomo un elemento del conjunto con una distribución X)
+
+Donde n es tal que n = 2^k
+Se tiene un valor fijo s \in Z^n_q y la distribución x sobre Z, por ende se conforma la distribución LWE como
+  A_{s,x} sobre Z^n_q x Z_q
+
+A <- U(Z^{mxn}_q}
+s <- U(Z^n_q)
+e <- D_{Zm, \alpha q} small compared to q
+A, As + e -> find s
+
+e es el ruido que se le agrega
+-------------------------------------------------------------------------------------------------------------
+Revisar bien esto en internet si llega a ser necesario, quedó incompleto el algoritmo
+
+ML-KEM: Estandar para PQM, encapsulación de clave simétrica.
+Define dos componentes principales:
+  - CPAPKE: Keygen, Enc, Dec
+  - IND-CCAKEM: Keygen, Enc, Dec
+
+----------------------------------------------------FIN------------------------------------------------------
+
+
+
 
