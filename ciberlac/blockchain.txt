@@ -1,0 +1,69 @@
+Web 3.0:
+  - Blockchain
+  - Smart contracts
+  - dApps
+  - Tokens
+  - NFTs ja
+  - Datos y activos propiedad del usuario
+  - Etc.
+
+Blockchain: Tecnología que soporta la Web 3.0
+
+  - Arquitectura descentralizada
+  - Propiedad y control de datos
+  - Menor dependencias de intermediarios
+  - Participación y propiedad digital
+
+Transacción centralizada:
+
+  Emisor -> Plataforma central -> Receptor
+
+Una entidad central valida y procesa la transacción
+
+Transacción descenralizada:
+
+  Emisor -> Red distruibuída -> Receptor
+
+La red distribuída valida y registra la transacción
+
+Tecnologías Web3 - Características
+
+  - Las transacciones son validadas por diferentes nodos independientes
+  - Las transacciones validadas se registran en una base de datos compartida de tipo append
+  - Las funciones hash criptográficas enlazan y protegen los registros de la blockchain frente a modificaciones no detectadas
+
+
+Principales tecnologías Web3
+
+  1 - Blockchain
+  2 - Criptomoneda
+  3 - Smart contracts
+  4 - Oráculos de blockchain
+
+Blockchain resuelve 3 problemas:
+
+  - Lograr que computadoras independiente se pongan de acuerdo sobre datos compartidos sin una autoridad central
+  - Creación de objetos digitales únicos
+  - El establecimiento y transferencia de propiedad de dichos objetos
+
+Trilema de blockchain (limitación de blockchain):
+
+  Escalabilidad/Seguridad/Descentralización
+
+El reto es equilibrar estas tres características en una red, modificar una de estas afecta a las otras dos.
+
+
+Evolución:
+
+  - Primera generación
+    -- Activo único
+    -- Cadena única
+  - Segunda generación
+    -- Multiples activos
+    -- Cadena única
+  - Tercera generación
+    -- Muchos activos
+    -- Varias cadenas
+  
+
+
