@@ -46,7 +46,19 @@ Actividades de la seguridad de la información
       
       --- Valorar los riesgos:
         ---- Inventario de activo
-        ---- Inteligencia de amenazas
+        ---- Inteligencia de amenazas:
+          ----- Que dicen mis colegas en el area de la empresa
+          ----- Que dicen las empresas de ciberseguridad
+          ----- Que están diciendo las autoridades
+          ----- Que dicen los expertos
+          ----- Plataformas de intercambio de inteligencia (Threat Intelligence sharing) (Open Threat Exchange, MISP, CIRCL, ThreatFox, etc.)
+          ----- Sandbox analysis
+          ----- Motores de búsqueda de infraestructura y exposición (internet scanning)
+          ----- Malware Intelligence
+          ----- Data Breach Intelligence
+          ----- Repositorio de vulnerabilidades y exploits (NVD/CVE, Expoit-DB, FIRST EPSS , CISA KEV)
+        ---- Establecer una línea base
+          ----- Tomar una foto de como son las cosas en la normalidad (hotas valle, pico, top usuarios en metrica etc), huellas digitales de archivos.          
         ---- Análisis de vulnerabilidades
         ---- Dar una valoración a cada riesgo
       
@@ -75,10 +87,30 @@ Actividades de la seguridad de la información
       --- Establecer una línea base
   - Preventivas:
     -- Evitar incidentes, priorizar riesgos, seleccionar controles, capacitar
+    -- Dimensión de la seguridad
+    -- Defensa en profundidad
+    -- Actualización del inventario y vulnerabilidades
+    -- Verificación de eventos sospechosos
+    -- Realizar pruebas de penetración
+    -- Capacitar/sensibilizar al personal
+    -- Backups/Continuidad del negocio
+      --- Periodicidad adecuada
+      --- Almacenamiento redundante
+      --- Disciplina y monitoreo
+    -- Implementar controles/auditar
+    -- Autenticación fuerte
+    -- Controles de acceso
   - Detectivas:
     -- Monitoreo, alertas, conocer síntomas
   - Reactivas:
     -- Contener, erradicar, remediar, restaurar
   - Retrospectivas:
     -- Medir desempeño, analizar causas y consecuencias, aorebder, revisar info, retroalimentar, afinar, mejorar, reportar
+
+Ciclo de vida MIGRI
+
+Inventario de activos -> análisis de vulnerabilidades ->  Inteligencia de amenazas -> Valoración de Riesgo -> Selección de controles -> Implementación de controles -> Monitoreo continuo
+
+
+
 
