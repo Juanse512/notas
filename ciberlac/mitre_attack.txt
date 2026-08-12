@@ -144,8 +144,25 @@ Tarea:
 MITRE ATLAS <- Matriz de ataque para IA, puede servir revisarlo para el trabajo
 
 
+Mitre no dice que tecnicas estan aplicando sobre nuestra aplicación
+No dice donde estás más expuesto
+No dice como reducir el tiempo de respuesta
 
+ATT&CK heatmaps
 
+Métricas:
+  MTTD (Mean Time to Detect)
+  MTTR (Mean Time to Repair/Resolve/Respond)
+
+Herramientas:
+ - Logs/SIEM - wazuh
+ - Trafico de red/IDS-IPS - snort, suricata, etc
+ - Archivos/Patrones de bytes - YARA
+ - Big data: Splunk, elastic search
+
+SIEM: Colecciona y analiza información sobre seguridad desde varias fuentes.
+
+--- CTF ---
 
 
 
