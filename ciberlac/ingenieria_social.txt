@@ -1,0 +1,52 @@
+El firewall que falla primero: El firewall cognitivo
+
+Persuasión e ingeniería social
+
+Referencias:
+  Cialdini (2007) Influence: The Psychology of Persuation
+  Gragg (2003) -> Disparadores en ingeniería social.
+  Stajano & Wilson (2011) -> Orientado a estafas
+
+Las seis técnicas operativas:
+
+Reciprocidad -> Obliga a responder tras recibir un favor -> Ofertas, regalos que preceden a un pedido
+Urgencia -> Presiona a reaccionar rápido -> Plazos amenazas, etc
+Autoridad -> Usa instistuciones de poder para generar obediencia
+Escases
+Prueba social
+Compromiso y coherencia
+
+Ciclo de ataque
+
+Superar filtros técnicos -> Captar atención -> Producir confianza -> Reducir sospecha -> Generar motivación -> Obtener acción
+
+Tipos de phishing
+
+Que es el phishing?
+
+  Ferreira y teles: Una forma de ingeniería social destinada a engañar a personas para que revelen información privada o confidencial
+  Bustio-Martinez: Explota el factor humano mediante principios de persuasión; se distingue del spam.
+  Khadka: Suplantar a una entidad de confianza para engañar a los usuarios
+  Samaniego y Yepez: Explota la vulnerabilidad humana a traves de las emociones para compromoter activos digitales
+  Dalmiere: Es un ejemplo de un fénomeno mas amplio; ataque que exlotan procesos cognitivos, normas sociales, necesidades individuales y emociones
+  
+Perfil del atacante y victima
+
+La victima evalua el mensaje con información incompleta y bajo restricciones de atención, tiempo y conocimiento técnico. No es un problema de inteligencia, es de condiciones de decisión
+
+Si el ataque es predecible, la prevención también puede serlo
+
+Firewall cognitivo
+
+Marco conceptual y tecnologico que integra ciberseguridad, Ia, psicologia cognitiva y criminologia digital para detectar analizar y prevenir ataques de ing social
+
+- Criminologia digital y perfiles conductiales
+- Identificacion y clasisficacion comportamental
+- Inteligencia de ataques
+- Difusión de inteligencia
+- Filtro cognitivo de comunicaciones: Módulo de intercepción, análisis y clasificación inteligente de mensajes, actuando como un firewall cognitivo en tiempo real
+ 
+Clasificador basado en in-context learning
+
+
+
