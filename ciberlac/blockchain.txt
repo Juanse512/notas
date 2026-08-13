@@ -66,4 +66,74 @@ Evolución:
     -- Varias cadenas
   
 
+Que es blockchain?
+Base de datos descentralizada que se mantiene mediante consenso y se distribuye entre multiples nodos, por lo que permite un almacenamiento inmutable ordenado y transparente
+
+Red punto a punto
+  - Nodos participantes
+    -- con par de llaves asimétricas (wallet)
+    -- Distribución de paquetes
+  - Nodos validadores
+    -- Protocolo de consenso
+
+Base de Datos distríbuidas
+  - Función hash
+  - Árbol de Merkle
+
+Mecanismos de seguridad
+
+  - Funciones hash
+    -- proof of work hace la inversa de una función hash
+  - Arbol de Merkle
+    -- Es una estructura donde cada nodo hoja está etiquetado con el hash criptográfico de un bloque de datos
+    -- Los nodos que no son hojas se etiquetan con el hash de sus nodos hijos
+    -- Permiten verificar eficiente y seguramente el contenido de grandes estructuras de datos
+
+Características generales
+
+Una plataforma pública y sin permisos normalmente permite:
+  - Consultar la blockchain libremente
+  - Enviar transacciones
+  - Crear cuentas o direcciones
+  - Operar nodos
+  - Participar bajo las reglas del protocolo
+  - Verificar independientemente el estado de la red
+
+No existe una única organización que controle el registro
+
+Smart contracts: Programas ejecutados por la blockchain, cuando la plataforma lo soporta
+
+Capa:
+  - Layer 0: infraestructura para conectar o construir blockchains
+    -- Blockchain que implementa: consenso, validación de transacciones, producción de bloques, seguridad de red, costos de transacción, lenguajes de smart contracts, estado y almacenamiento, herramientas de desarrollo (Bitcoin, Ethereum, Solana, etc.)
+  - Layer 1: Blockchain base donde se alcanza consenso y se registran transacciones
+    -- 
+  - Layer 2: Protocolos sobre Layer 1 que mejoran escalabilidad u ofrecer nuevas features
+  - Aplicaciones: Wallets, exchanges y otros servicios usados por usuarios
+
+
+Mainnet
+  - Red blockchain real
+  - Activos con valor
+  - Transacciones permanente
+Testnet
+  - Red pública para pruebas
+  - Activo sin valor económico
+  - Comportamiento similar a Mainnet
+Red Local
+  - Blockchain ejecutada en nuestro equipo
+  - Control total del entorno
+  - Ideal para desarrollo y pruebas
+
+Una cuenta blockchain se relaciona con:
+
+  Clave privada
+    - Debe permanecer secreta
+    - Permite autorizar operaciones
+  Clave pública
+    - Se deriva criptográficamente de la clave privada
+  Dirección
+    - Identifica una cuenta o destino dentro de la red
+
+La blockchain no necesita conocerla identidad real del usuario para verificar una firma
 
