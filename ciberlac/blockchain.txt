@@ -137,3 +137,51 @@ Una cuenta blockchain se relaciona con:
 
 La blockchain no necesita conocerla identidad real del usuario para verificar una firma
 
+Elementos básicos de smart contract
+
+  Estado
+    - Datos persistentes, saldos, propietarios, configuración
+  Funciones
+    - Operaciones que pueden ejecutarse
+  Reglas
+    - Condiciones que deben cumplirse
+  Eventos
+    - Registro de acciones relevantes
+  Control de acceso
+    - Quien puede ejecutar ciertas operaciones
+
+Que significa desplegar un contrato?
+
+Compilar el contrato -> Construir transacción de desplegue -> Firmar con clave privada -> Enviar a la red -> La red valida y ejecuta la transacción -> Se crea una dirección de contrato -> Resultado: código + estado inicial + dirección.
+
+El despliegue tiene normalmente un costo de ejecución
+
+Interactuar con un contrato
+
+  Lectura: Consulta información sin modificar el estado (saldo, propiertario, nombre, etc)
+  Escritura: Modifica el estado y requiere una transacción (crear un activo, transferirlo, aprobar una operación, etc)
+
+Que es un activo digital? Es una representación digital
+Tiene que tener: identificador único, propietario (clave pública), cantidad, estado.
+
+Activo nativo vs token
+Nativo: 
+  - Forma parte directamente del protocolo de blockchain
+  - Se utiliza normalmente para pagar transacciones
+
+Token:
+  - Activo definido mediante la funcionalidad de la plataforma, frecuentemente mediante smart contract
+
+Fungibles: Cada unidad es intercambiable por otra equivalente
+No fungible: Cada activo puede ser único
+
+Crear un activo
+  - Implica registrar nueva información en el estado de la blockchain
+  - Una operación de Mint puede definir
+    -- Identificador
+    -- Cantidad
+    -- Propietario inicial
+    -- Metadatos
+    -- Reglas de emisión
+  - No se crea un archivo, se modifica el estado mantenido por el contrato
+
